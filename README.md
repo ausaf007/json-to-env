@@ -1,17 +1,17 @@
 
-# json-to-env
+# json_to_env
 
-`json-to-env` is a simple bash script utility to locally convert JSON files into `.env` format. It uses the `jq` tool for JSON parsing.
+`json_to_env` is a simple bash script utility to locally convert JSON files into `.env` format.
 
 ## Requirements
 
-- `jq`: The script uses jq to parse and convert the JSON data.
+- `jq`: This script uses jq to parse and convert the JSON data.
 - Flat JSON Structure: The provided JSON file should have a flat structure. Nested JSON structures are not supported for conversion.
 
 ## Usage
 
 ```bash
-./json-to-env.sh <input_json_file> <output_env_file>
+./json_to_env.sh <input_json_file> <output_env_file>
 ```
 
 - `<input_json_file>`: The path to your source JSON file.
@@ -20,16 +20,16 @@
 ### Example:
 
 ```bash
-./json-to-env.sh config.json config.env
+./json_to_env.sh config.json config.env
 ```
 
 ## Installation
 
-1. Clone this repository or download the `json-to-env.sh` file directly.
+1. Clone this repository or download the `json_to_env.sh` file directly.
 2. Provide execute permissions to the script:
 
 ```bash
-chmod +x json-to-env.sh
+chmod +x json_to_env.sh
 ```
 
 3. Ensure `jq` is installed. If not, you can generally install it using package managers:
