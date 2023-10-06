@@ -5,7 +5,8 @@
 
 ## Requirements
 
-- `jq`
+- `jq`: The script uses jq to parse and convert the JSON data.
+- Flat JSON Structure: The provided JSON file should have a flat structure. Nested JSON structures are not supported for conversion.
 
 ## Usage
 
